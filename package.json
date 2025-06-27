@@ -1,0 +1,28 @@
+{
+  "name": "sanity-sdk-terminal-demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/app.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": "@sanity/prettier-config",
+  "dependencies": {
+    "@sanity/prettier-config": "^2.0.0",
+    "@sanity/sdk-react": "^2.0.1",
+    "@types/node": "^24.0.4",
+    "@types/react": "^19.1.8",
+    "dotenv": "^16.5.0",
+    "ink": "^6.0.1",
+    "ink-select-input": "^6.2.0",
+    "react": "^19.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+}
